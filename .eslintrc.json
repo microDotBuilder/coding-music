@@ -1,9 +1,10 @@
 {
     "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
-    "plugins": ["check-file"],
+    "plugins": ["check-file", "n"],
     "rules": {
         "prefer-arrow-callback": ["error"],
         "prefer-template": ["error"],
+        "n/no-process-env": ["error"],
         "check-file/filename-naming-convention": [
             "error",
             {
@@ -17,8 +18,8 @@
         "check-file/folder-naming-convention": [
             "error",
             {
-                // all folders within src (except __tests__)should be named in kebab-case
-                "src/**/!(__tests__)": "KEBAB_CASE"
+                // all folders within src (except __tests__ and dynamic routes) should be named in kebab-case
+                "src/**/!(__tests__|^[.*)": "KEBAB_CASE"
             }
         ]
     }

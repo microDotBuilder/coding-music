@@ -150,3 +150,17 @@ src
 +-- types # shared types used across the application
 |
 +-- utils # shared utility functions
+
+## environment variables typesafe way using T3env.gg:
+
+# esling plugin to stop ussage of process.env
+
+```bash
+pnpm add -D eslint-plugin-n
+```
+
+## TO VIEW DATABASE RELATIONSHIPS GO TO:
+
+```url
+https://dbdocs.io/
+```
