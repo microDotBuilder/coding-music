@@ -123,7 +123,7 @@ pnpm add -D eslint-plugin-check-file
 https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md
 ```
 
-src
+src\
 |\
 +-- app # application layer containing:\
 | | # this folder might differ based on the meta framework used\
