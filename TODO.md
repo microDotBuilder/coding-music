@@ -1,3 +1,12 @@
+## CREATE DIFFERENT BRANCHES FOR EACH FEATURE
+
+-   [ ] create branch for base template\
+         - [ ] include prisma in this
+-   [ ] create branch for docker postgress database template
+-   [ ] create branch for clerk authentication template
+-   [ ] create branch for convex db template
+-   [ ] create branch for firebase template
+
 ## for the coding music app:
 
 -   [ ] convex db
