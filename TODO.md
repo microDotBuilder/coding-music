@@ -7,6 +7,14 @@
 -   [ ] create branch for convex db template
 -   [ ] create branch for firebase template
 
+## question about authentication:
+
+-   [ ] how does the session storage works in nextjs
+-   [ ] does clerk create a session storage to keep user logged in
+-   [ ] if i want to store the user cookie in the session storage \
+         can i take it from clerk and store it in the session storage\
+         and store that information in the database.\
+
 ## for the coding music app:
 
 -   [ ] convex db
@@ -24,3 +32,10 @@
         save the cookie information the the databse:
 
 -   [ ] design the database schema to connect the session tokens to the clerk users
+
+<!-- docker run --name nextstatertemplate\
+ -e POSTGRES_PASSWORD=supersecretpassword\
+ -e POSTGRES_USER=nextstatertemplate\
+ -e POSTGRES_DB=nextstatertemplate\
+ -p 5432:5432\
+ -d postgres -->
