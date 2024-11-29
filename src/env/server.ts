@@ -1,6 +1,7 @@
 import { createEnv } from "@t3-oss/env-nextjs";
 import { ZodError, z } from "zod";
 
+//what happens if i convert this function into IIFE?
 export const env = createEnv({
     isServer: typeof window === "undefined",
 
